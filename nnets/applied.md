@@ -1,7 +1,5 @@
 # Biomedical & Healthcare
-
 ## 2015
-
 <a name="Lipton2015"></a>Lipton, Z. C., Kale, D. C., Elkan, C., & Wetzell, R. (2015). Learning to Diagnose with LSTM Recurrent Neural Networks. Retrieved from [here](http://arxiv.org/abs/1511.03677)
 
     *    aims to classify multivariate timeseries data into one of multiple classes using a LSTM RNN - Notes that some sequence models, such as Markov, conditional random fields, and Kalman filters are ill-equipped to learn long-range dependencies
@@ -17,8 +15,17 @@
     *    used published tables to correct for differences in variables due to age / gender (Fleming 2011, NHBPEP Working Group 2004)
     *    RNN LSTM with memory cells with forget gates (Gers, 2000b) w/out peephole connections (Gers 2003). output layer is a fully connected layer atop last LSTM layer with element-wise sigmoid. Use log loss as the loss function.
 
-# NLP
+## 2013
+<a name="Lasko2013"></a>Lasko, T. A., Denny, J. C., & Levy, M. A. (2013). Computational Phenotype Discovery Using Unsupervised Feature Learning over Noisy, Sparse, and Irregular Clinical Data. PLoS ONE, 8(6), e66341. Retrieved from [here](http://dx.doi.org/10.1371/journal.pone.0066341)
 
+    *    uses Gaussian process (GP) regression to transform raw sparse data into continuous longitudinal data for clinical measurements of uric acid levels 
+         *    raw data has irregular points in time separated by interval ranging from hours to years
+         *    GP represents a probability density P(f(t)) over a space of arbitrary continuous functions. Thus it is better at capturing non-linear data patterns than the mixed-effects linear regression approach we’re using for Audiogram data
+    *    used auto encoder network for unsupervised feature learning over longitudinal serum uric acid measurments
+    *    demonstrated learned features useful for classifier that distinguished between gout and leukemia
+
+# NLP
 ## See also
 
 [Socher2011](https://github.com/masinoa/datascience-notes/blob/master/nlp/applied.md#Socher2011)
+[Santos2014](https://github.com/masinoa/datascience-notes/blob/master/nlp/applied.md#Santos2014)
