@@ -2,7 +2,7 @@
 
 ## 2015
 
-**[1]** Lipton, Z. C., Kale, D. C., Elkan, C., & Wetzell, R. (2015). Learning to Diagnose with LSTM Recurrent Neural Networks. Retrieved from [here](http://arxiv.org/abs/1511.03677)
+<a name="Lipton2015"></a>Lipton, Z. C., Kale, D. C., Elkan, C., & Wetzell, R. (2015). Learning to Diagnose with LSTM Recurrent Neural Networks. Retrieved from [here](http://arxiv.org/abs/1511.03677)
 
     *    aims to classify multivariate timeseries data into one of multiple classes using a LSTM RNN - Notes that some sequence models, such as Markov, conditional random fields, and Kalman filters are ill-equipped to learn long-range dependencies
     *    uses 13 frequently but irregularly sampled clinical measures

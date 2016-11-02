@@ -2,7 +2,7 @@
 
 ## 2015
 
-**[1]** LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436–444. [here](http://doi.org/10.1038/nature14539)
+<a name="LeCun2015"><a> LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436–444. Retrieved from  [here](http://doi.org/10.1038/nature14539)
 
     *    Convulotional NNets
          *    dominant approach for recognition & detection tasks - see refs 4, 58, 59, 63-65
