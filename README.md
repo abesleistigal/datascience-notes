@@ -1,1 +1,3 @@
-Repository for journal article notes. Articles will typically be on topics in data science, machine learning, and applications to healhtcare.
+Repository for data science notes taken primarily (but not exclusively) from recent literature. Topics will generally focus on data science with a preference toward machine learning. Notes are organized by the main topic of the article (e.g. NLP) and each topic is divided into applied, theoretical, and review documents. Note that articles describing a new architecture with inclusion of case studies are typically listed in the theoretical document.
+
+Naturally, there are many cases where a given article place in one topic may overlap with another topic (e.g. NLP and NNet). Insuch cases, I have attempted to include cross references between topic notes.
