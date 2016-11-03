@@ -28,4 +28,5 @@
 ## See also
 
 [Socher2011](https://github.com/masinoa/datascience-notes/blob/master/nlp/theoretical.md#Socher2011)
+
 [Santos2014](https://github.com/masinoa/datascience-notes/blob/master/nlp/theoretical.md#Santos2014)
