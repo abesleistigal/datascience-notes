@@ -15,7 +15,7 @@
          *     input sample, x, and reconstructed output, z, were multiplied by M
          *     cross entropy error was divided by the sum of M
          *     eliminates need for imputation 
-    *    code available on [here](http://www.sciencedirect.com/science/article/pii/S153204641630140X)
+    *    code available [here](https://github.com/greenelab/DAPS)
 
 
 ## 2015
