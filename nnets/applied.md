@@ -1,6 +1,7 @@
 # Biomedical & Healthcare
 ## 2016
 <a name="BeaulieuJones2016"></a>B.K. Beaulieu-Jones, C.S. Greene, Semi-supervised learning of the electronic health record for phenotype stratification, J. Biomed. Inform. 64 (2016) 168–178. Retrieved from [here](http://www.sciencedirect.com/science/article/pii/S153204641630140X) 
+code available [here](https://github.com/greenelab/DAPS)
 
     *    applied denoising autoencoder to simulated EHR data.
     *    also applied to ALS data obtained from Pooled Resource Open-Access ALS Clinical Trials database
@@ -15,8 +16,6 @@
          *     input sample, x, and reconstructed output, z, were multiplied by M
          *     cross entropy error was divided by the sum of M
          *     eliminates need for imputation 
-    *    code available [here](https://github.com/greenelab/DAPS)
-
 
 ## 2015
 <a name="Lipton2015"></a>Lipton, Z. C., Kale, D. C., Elkan, C., & Wetzell, R. (2015). Learning to Diagnose with LSTM Recurrent Neural Networks. Retrieved from [here](http://arxiv.org/abs/1511.03677)
