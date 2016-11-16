@@ -1,4 +1,23 @@
 # Biomedical & Healthcare
+## 2016
+<a name="BeaulieuJones2016"></a>B.K. Beaulieu-Jones, C.S. Greene, Semi-supervised learning of the electronic health record for phenotype stratification, J. Biomed. Inform. 64 (2016) 168–178. Retrieved from [here](http://www.sciencedirect.com/science/article/pii/S153204641630140X) 
+
+    *    applied denoising autoencoder to simulated EHR data.
+    *    also applied to ALS data obtained from Pooled Resource Open-Access ALS Clinical Trials database
+		 *     ALS data contains a mix of demographic information, diagnosis history, family history, treatment history, vital sign readings, medications, laboratory values
+         *     categorical variables were converted to 1-hot encodings
+         *     repeated or temporal measurements were encoded as the mean, min, max, count, stdev, and slope accross each repeat
+         *     measurement scales were standardized and input features were normalized to be between 0 and 1 
+    *    demonstrated that unsupervised learning by the DA generated distinguishable clusters analagous to population subtypes
+    *    classifiers built on the DA output required significatnly fewer labeled examples to achieve optimal performance as compared to classifiers given raw input 
+    *    modification to handle missing data: 
+	     *     created a missingness vector, M, for each input with value 1 for elements where data is present, 0 otherwise
+         *     input sample, x, and reconstructed output, z, were multiplied by M
+         *     cross entropy error was divided by the sum of M
+         *     eliminates need for imputation 
+    *    code available on [here](http://www.sciencedirect.com/science/article/pii/S153204641630140X)
+
+
 ## 2015
 <a name="Lipton2015"></a>Lipton, Z. C., Kale, D. C., Elkan, C., & Wetzell, R. (2015). Learning to Diagnose with LSTM Recurrent Neural Networks. Retrieved from [here](http://arxiv.org/abs/1511.03677)
 
