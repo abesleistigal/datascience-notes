@@ -17,7 +17,8 @@ code available [here](https://github.com/greenelab/DAPS)
          *     cross entropy error was divided by the sum of M
          *     eliminates need for imputation 
 
-<a name="choi2016"</a> [1] E. Choi, M.T. Bahadori, E. Searles, C. Coffey, J. Sun, Multi-layer Representation Learning for Medical Concepts, (2016). Retrieved from [here](http://arxiv.org/abs/1602.05568)
+<a name="choi2016"</a>E. Choi, M.T. Bahadori, E. Searles, C. Coffey, J. Sun, Multi-layer Representation Learning for Medical Concepts, (2016). Retrieved from [here](http://arxiv.org/abs/1602.05568)
+
     *    objective is to develop dense vector representations of medical concept codes that encode latent information not represented in one-hot coding
     *    challenges assoicated with learning electronic health record (EHR) data representations:
          *    EHR data structured as visits that are temporally ordered but each visit consists of an unordered set of medical codes
